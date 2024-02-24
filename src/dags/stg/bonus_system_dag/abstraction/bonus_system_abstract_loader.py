@@ -12,32 +12,3 @@ class BonusAbstractLoader(ABC):
         self.log = log
         self.settings_repository = StgEtlSettingsRepository()
 
-    @abstractmethod
-    def create_origin_repository(self, pg: PgConnect):
-        """
-        Factory method to create the origin repository.
-
-        Args:
-            pg (PgConnect): PostgreSQL connection object.
-
-        Returns:
-            AbstractEventsRepository: Instance of the origin repository.
-        """
-        pass
-
-    @abstractmethod
-    def create_destination_repository(self):
-        """
-        Factory method to create the destination repository.
-
-        Returns:
-            AbstractEventsRepository: Instance of the destination repository.
-        """
-        pass
-
-    @abstractmethod
-    def load(self):
-        """
-        Load method. This should be implemented by the specific loader.
-        """
-        pass
