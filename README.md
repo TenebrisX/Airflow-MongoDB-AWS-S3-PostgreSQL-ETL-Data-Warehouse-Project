@@ -45,4 +45,4 @@ This project involves enhancing your existing data warehouse by adding a new dat
 ## Documentation
 
 >> [Documentation](https://github.com/TenebrisX/de-project-sprint-5/tree/main/documentation)
-Include all necessary documentation for delivering the results to the client.
+Include all necessary documentation.
