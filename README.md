@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves enhancing your existing data warehouse by adding a new data source and data mart. The goal is to build a data mart for calculating payments to couriers based on their performance. The data from the new source needs to be integrated with the existing data in the warehouse.
+This project involves enhancing existing data warehouse by adding a new data source and data mart. The goal is to build a data mart for calculating payments to couriers based on their performance. The data from the new source needs to be integrated with the existing data in the warehouse.
 
 
 ### Project Tasks
